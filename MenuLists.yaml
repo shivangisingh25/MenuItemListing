@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: MenuItemListing-deployment
+  name: menulists-deployment
 spec:
   replicas: 1
   selector:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name:   menuitemlisting
-        image: truymcr.azurecr.io/menurepos:latest1
+        image: truymcr.azurecr.io/menurepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
