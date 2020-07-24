@@ -16,6 +16,7 @@ namespace MenuItemListing.Controllers
             new MenuItem { Id = 2, Name = "Pizza", freeDelivery = true, Price = 250.00,  dateOfLaunch = DateTime.Now ,Active = true },
             new MenuItem { Id = 3, Name = "Pasta", freeDelivery = true, Price = 160.00,  dateOfLaunch = DateTime.Now  , Active = true },
             new MenuItem { Id = 4, Name = "Garlic Bread", freeDelivery = true, Price = 99.00, dateOfLaunch = DateTime.Now  ,   Active = true },
+            new MenuItem { Id = 5, Name = "Coke", freeDelivery = true, Price = 50.00, dateOfLaunch = DateTime.Now  ,   Active = true },
         };
 
         [HttpGet]
