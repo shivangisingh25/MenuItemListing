@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name:   menuitemlisting
-        image: nowcr.azurecr.io/menusrepos:latest
+        image: nowcr.azurecr.io/menuslistrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
